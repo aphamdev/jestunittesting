@@ -1,0 +1,8 @@
+const addFive = require(`./addFive`);
+
+test('return the number plus 5', () => {
+    expect(addFive(1)).toBe(6)
+})
+
+
+// naming convention as follows, filename.test.js
